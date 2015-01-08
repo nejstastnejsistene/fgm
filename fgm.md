@@ -14,10 +14,11 @@ step :: GalaxianState -> InputState -> GalaxianState
 
 ### Why?
 
+* I love Galaxian. I have a little joystick box that plugs into the TV and has 5 games on it that I play obsessively every year on our ski vacation. I'm also a fan of Dig-Dug but that seemed less fun to program.
 * I like the determinism of arcade games, [particularly in pacman](http://www.mameworld.info/net/pacman/patterns.html).
 * I learned to program by programming arcade games in Java, and I'm familiar with the messiness of mixing logic and graphics. This is inspired by my desire (cool rhyme!) to completely separate the two.
-* I like the idea that the game could be simulated separately from playing it, which could be used for verifying high scores or for smarter AI.
-* I'm always looking for an excuse to use haskell and think functionally.
+* I like the idea that the game can be simulated separately from playing it, which could be used for verifying high scores or for smarter AI.
+* I'm always looking for an excuse to use Haskell and think functionally.
 * I've been looking for something interesting to use as the 404 page for my website, and this could do.
 
 ### Playback format
