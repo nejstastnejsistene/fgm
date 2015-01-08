@@ -6,7 +6,7 @@ The classic game Galaxian, implemented as a completely deterministic state machi
 data GalaxianState = ...
 
 data JoystickState = TiltLeft | Neutral | TiltRight
-type ButtonState Bool -- Edge triggered (only true when the button is initially pressed)
+type ButtonState Bool -- Edge triggered
 data InputState = InputState JoystickState ButtonState
 
 step :: GalaxianState -> InputState -> GalaxianState
